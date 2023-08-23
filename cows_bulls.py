@@ -21,9 +21,9 @@ while chances>0:
     else:
         for i in range(0,3):
             if n[i]==num[i]:
-                bulls=bulls+1
-            elif n[i] in num:
                 cows=cows+1
+            elif n[i] in num:
+                bulls=bulls+1
         print("Well Keep going on you have",bulls,"bulls and ",cows,"cows in your guess")
         bulls=0
         cows=0
